@@ -37,8 +37,13 @@ function timer(){
         clearInterval(timerId)
         clearInterval(setIntervalId)
         alert(`your score is ${yourScore}`)
+        score.textContent= 0;
+        Playtime=60;
+
 
     }
 }
-const timerId =  setInterval(timer, 100);
+
+
+const timerId =  setInterval(timer, 1000);
     
